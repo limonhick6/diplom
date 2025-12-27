@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     transition: background-color 0.5s, color 0.5s;
+    margin-left: 0;
 }
 a {
     text-decoration: none;
@@ -108,10 +109,12 @@ body.dark-theme {
     color: #ff9f1c;
 }
 .main-header {
-    padding: 15px 5%;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 5%;
 }
 .header-content {
     max-width: 1200px; 
@@ -209,11 +212,11 @@ body.dark-theme {
         text-align: center;
     }
     .main-nav {
-        margin: 15px 0;
+       display: flex;
+    gap: 15px;
     }
     .main-nav a {
-        display: block;
-        margin: 5px 0;
+      margin-left: 0;
     }
     .header-buttons {
         flex-direction: column;
@@ -232,4 +235,5 @@ body.dark-theme {
     .social-links {
         margin-top: 10px;
     }
+
 }
