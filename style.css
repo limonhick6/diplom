@@ -280,10 +280,9 @@ body.dark-theme {
     font-size: 30px;
     cursor: pointer;
 }
-
-/* Темная тема для модалки */
 .dark-theme .modal-content {
     background-color: #282828;
     color: #edf2f4;
     border: 1px solid #ff9f1c;
 }
+
