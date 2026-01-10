@@ -232,7 +232,7 @@ body.dark-theme {
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
-@media (max-width: 768px) {
+media (max-width: 768px) {
     .header-content {
         flex-direction: column;
         text-align: center;
@@ -293,4 +293,5 @@ body.dark-theme {
     color: #edf2f4;
     border: 1px solid #ff9f1c;
 }
+
 
